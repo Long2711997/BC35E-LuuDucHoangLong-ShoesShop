@@ -172,7 +172,7 @@ export default class ShoesApp extends Component {
     return data.map((item, index) => {
       return (
         <div className="col-3 mt-2" key={index}>
-          <ProductItem shoes={item} />
+          <ProductItem shoes={item} viewDetail={this.viewDetail}/>
         </div>
       );
     });

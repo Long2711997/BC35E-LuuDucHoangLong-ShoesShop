@@ -27,7 +27,7 @@ export default class Modal extends Component {
                 </button>
               </div>
               <div class="modal-body">
-                <img src={shoesDetail.image} alt="" />
+                <img src={shoesDetail.image} alt="" width={450} style={{objectFit: 'cover'}}/>
                 <p>{shoesDetail.shortDescription}</p>
               </div>
               <div class="modal-footer">
